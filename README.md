@@ -36,61 +36,45 @@ Un sistema completo e professionale per la gestione di una biblioteca, sviluppat
 
 ---
 
-## 📋 Struttura del Codice
+## 🎓 Descrizione Dettagliata
 
-### Classi Principali
+### **Cos'è questo Progetto?**
 
-#### `Libro`
-Rappresenta un libro nel catalogo della biblioteca.
+Il **Sistema di Gestione Biblioteca** è un'applicazione Python completa e professionale che simula il funzionamento di una biblioteca moderna. È uno strumento progettato per gestire in modo efficiente e automatizzato tutti gli aspetti operativi di una biblioteca: dalla catalogazione dei libri alla gestione dei prestiti, fino al calcolo delle sanzioni per i ritardi.
 
-**Attributi:**
-- `isbn`: Codice identificativo univoco
-- `titolo`: Nome del libro
-- `autore`: Autore del libro
-- `anno`: Anno di pubblicazione
-- `copie_disponibili`: Numero di copie disponibili
-- `copie_totali`: Numero totale di copie
-- `prestiti`: Lista dei prestiti effettuati
+### **Modello Concettuale**
 
-**Metodi:**
-- `to_dict()`: Converte il libro in dizionario
+Il sistema è costruito su **tre pilastri fondamentali**:
 
-#### `Utente`
-Rappresenta un utente registrato della biblioteca.
+### ✨ Sezioni Aggiunte:
 
-**Attributi:**
-- `id_utente`: ID univoco dell'utente
-- `nome`: Nome completo
-- `email`: Indirizzo email
-- `libri_presi_in_prestito`: Lista dei prestiti attuali
-- `data_registrazione`: Data di iscrizione
+1. **🎓 Descrizione Dettagliata**
+   - Cos'è il progetto
+   - Modello concettuale
+   - Come funziona il sistema
+   - Flusso di dati
+   - Caso di uso reale
 
-**Metodi:**
-- `to_dict()`: Converte l'utente in dizionario
+2. **🚀 Come Eseguire il Programma** (Completa)
+   - Requisiti
+   - Verificazione Python
+   - Creazione cartella
+   - 3 Opzioni per creare file
+   - 4 Metodi di esecuzione
+   - Output di esempio
+   - Troubleshooting dettagliato
+   - Checklist
+   - Comandi rapidi
 
-#### `Biblioteca`
-Classe principale che gestisce tutta la logica della biblioteca.
+3. **💡 Logica di Funzionamento Dettagliata**
+   - Prendere in prestito
+   - Restituire libro
+   - Flussi diagram
 
-**Attributi:**
-- `nome`: Nome della biblioteca
-- `libri`: Dizionario di tutti i libri
-- `utenti`: Dizionario di tutti gli utenti
-- `giorni_prestito`: Durata del prestito (default: 14 giorni)
-- `multa_giornaliera`: Importo della multa al giorno (default: €2,00)
+4. **📊 Metriche e Statistiche**
 
-**Metodi Principali:**
-- `aggiungi_libro(libro)`: Aggiunge un libro al catalogo
-- `registra_utente(utente)`: Registra un nuovo utente
-- `prendi_in_prestito(id_utente, isbn)`: Effettua un prestito
-- `restituisci_libro(id_utente, isbn)`: Restituisce un libro
-- `mostra_libri_disponibili()`: Visualizza tutti i libri
-- `mostra_prestiti_utente(id_utente)`: Mostra i prestiti di un utente
-- `genera_statistiche()`: Mostra le statistiche della biblioteca
+5. **💻 Implementazione Tecnica**
+   - Strutture dati
+   - Algoritmi
 
----
-
-## 🚀 Come Utilizzare
-
-### 1. Importare le Classi
-```python
-from sistema_gestione_biblioteca import Libro, Utente, Biblioteca
+6. **🎓 Valore Educativo**
