@@ -21,7 +21,7 @@ class Libro:
             "isbn": self.isbn,
             "titolo": self.titolo,
             "autore": self.autore,
-            "anno": self.anno,
+            "anno": self.anno, 
             "copie_disponibili": self.copie_disponibili,
             "copie_totali": self.copie_totali
         }
@@ -261,3 +261,6 @@ if __name__ == "__main__":
 
     # Statistiche
     bib.genera_statistiche()
+
+# codice fatto da Kalaskova_itis (utilizzabile tranquillamente in modo gratuito)
+# creato il 10/02/2026
